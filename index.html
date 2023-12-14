@@ -11,14 +11,14 @@
         <h1>Zeichen ketten trennungs maschine</h1>
         <form onsubmit="return false">
             <label for="Eingabetext">Zu trennende Zeichenkette</label>
-            <input type="text" name="trennen" id="trennen">
+            <input type="text" name="eingabe" id="eingabe">
             <label for="trennBei">Trennen bei Zeichenkette</label>
             <input type="text" name="trennBei" id="trennBei">
             <div>
-                <input type="radio" name="" id="davor">
-                <label for="">davor</label>
-                <input type="radio" name="" id="danach">
-                <label for="">danach</label>
+                <input type="radio" name="trennBei" value="davor" id="davor">
+                <label for="">davor trennen</label>
+                <input type="radio" name="trennBei" value="danach" id="danach">
+                <label for="">danach trennen</label>
                 <button onclick="cutMe()">Hier clicken</button>
             </div>
         </form>
