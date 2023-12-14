@@ -1,7 +1,7 @@
 html {
     height: 100%;
     background: 
-        linear-gradient(rgba(150, 196, 0, 0.6), rgba(39, 170, 241, 0.6));
+        linear-gradient(rgba(232, 80, 38, 0.721), rgba(39, 170, 241, 0.6));
 }
 
 body{
@@ -36,5 +36,5 @@ button {
 }
 
 button:hover {
-    background-color: rgba(150, 196, 0, 0.6);
+    background-color: rgba(232, 80, 38, 0.721);
 }
