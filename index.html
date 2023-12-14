@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>ZKTM</title>
 </head>
 <body>
-    
+    <section>
+        <h1>Zeichen ketten trennungs maschine</h1>
+        <form onsubmit="return false">
+            <label for="Eingabetext">Zu trennende Zeichenkette</label>
+            <input type="text" name="trennen" id="trennen">
+            <label for="trennBei">Trennen bei Zeichenkette</label>
+            <input type="text" name="trennBei" id="trennBei">
+            <div>
+                <input type="radio" name="" id="davor">
+                <label for="">davor</label>
+                <input type="radio" name="" id="danach">
+                <label for="">danach</label>
+                <button onclick="cutMe()">Hier clicken</button>
+            </div>
+        </form>
+        <div>
+            <h2>Ausgabe</h2>
+            <h3>Vorderer Teil</h3>
+            <p class="vorne"></p>
+            <h3>hinterer Teil</h3>
+            <p class="hinten"></p>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
