@@ -18,8 +18,8 @@ const cutMe = () => {
         hintererTeil.innerHTML = ergebnisHintererTeil;
     }
     else if (danach) {
-        ergebnisVordererTeil = eingabe.slice(0, cutIndex + 1);
-        ergebnisHintererTeil = eingabe.slice(cutIndex + 1);
+        ergebnisVordererTeil = eingabe.slice(0, cutIndex + trennBei.length);
+        ergebnisHintererTeil = eingabe.slice(cutIndex + trennBei.length);
         vordererTeil.innerHTML = ergebnisVordererTeil;
         hintererTeil.innerHTML = ergebnisHintererTeil;
     }
